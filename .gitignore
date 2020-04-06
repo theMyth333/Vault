@@ -1,3 +1,7 @@
+#Configuration
+config/
+next.config.js
+
 # Logs
 logs
 *.log
