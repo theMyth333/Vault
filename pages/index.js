@@ -1,5 +1,9 @@
-function Index(){
-return <h1>Its Working! {process.env.MSG}</h1>
-}
+import App from "../components/App";
 
-export default Index;
+export default function Index() {
+    return (
+        <div>
+        <App />
+        </div>
+    )
+};
